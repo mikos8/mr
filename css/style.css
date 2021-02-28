@@ -6,6 +6,7 @@
      font-family: 'Source Sans Pro', sans-serif;
      font-size: 15px;
      line-height: 24px;
+     font-weight: 400;
  }
 
  a {
@@ -166,14 +167,14 @@
      position: relative;
  }
 
- .special__left-img{
+ .special__left-img {
      position: absolute;
      width: 300px;
      height: 400px;
      left: -70px;
      margin-top: 80px;
- } 
- 
+ }
+
  .special__title {
      text-align: center;
      font-size: 35px;
@@ -211,4 +212,51 @@
      font-weight: 400;
      font-size: 20px;
      line-height: 24px;
+ }
+
+ .advantages {
+     background-color:#F4F9FD;
+     margin-bottom: 50px;
+     padding-top: 40px;
+ }
+
+ .advantages__box {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 76px;
+ }
+
+ .advantages__box-info {
+     max-width: 500px;
+     max-height: 311px;
+     padding-top: 60px;
+ }
+
+ .advantages__box--title {
+     font-size: 35px;
+     line-height: 45px;
+     font-weight: 700;
+     margin: 88px 26px 15px 47px;
+ }
+
+ .advantages__box--text {
+     font-size: 20px;
+     width: 470px;
+     height: 206px;
+     padding-left: 45px;
+ }
+
+ .advantages__box-images {
+     margin-left: 48px;
+     width: 667px;
+     height: 516px;
+ }
+
+ .advantages__box2__img {
+     margin-right: 61px;
+     width: 667px;
+     height: 516px;
+ }
+ .image3{
+     margin-bottom: 50px;
  }
