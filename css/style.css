@@ -215,7 +215,7 @@
  }
 
  .advantages {
-     background-color:#F4F9FD;
+     background-color: #F4F9FD;
      margin-bottom: 50px;
      padding-top: 40px;
  }
@@ -226,10 +226,19 @@
      margin-bottom: 76px;
  }
 
+ .adv__info2 {
+     background-image: url(../images/adv-bg3.png);
+     background-repeat: no-repeat;
+     background-position: 40% 10%;
+ }
+
  .advantages__box-info {
      max-width: 500px;
      max-height: 311px;
      padding-top: 60px;
+     background-image: url(../images/title-bg.png);
+     background-repeat: no-repeat;
+     background-position: 8% 65%;
  }
 
  .advantages__box--title {
@@ -257,6 +266,11 @@
      width: 667px;
      height: 516px;
  }
- .image3{
+
+ .image3 {
      margin-bottom: 50px;
+ }
+
+ .advantages__box--right .advantages__box2__img {
+     order: 0;
  }
