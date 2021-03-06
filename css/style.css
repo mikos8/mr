@@ -218,6 +218,9 @@
      background-color: #F4F9FD;
      margin-bottom: 50px;
      padding-top: 40px;
+     background-image: url(../images/bg2.png);
+     background-repeat: no-repeat;
+     background-position: 103% 75%;
  }
 
  .advantages__box {
@@ -274,3 +277,27 @@
  .advantages__box--right .advantages__box2__img {
      order: 0;
  }
+
+ .reviews {}
+
+ .reviews__title {
+     font-size: 29px;
+     font-weight: 700;
+ }
+
+ .reviews__items {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .reviews__item {}
+
+ .reviews__item-head {}
+
+ .reviews__item--info {}
+
+ .reviews__item-name {}
+
+ .reviews__item-position {}
+
+ .reviews__item-text {}
